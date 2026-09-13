@@ -13,6 +13,7 @@ fun main() {
         {
             println("Целочисленный показатель не существует.")
         }
+        return
     }
     if (x == 0.0)
     {
@@ -24,6 +25,7 @@ fun main() {
         {
             println("Целочисленный показатель не существует.")
         }
+        return
     }
     val y = kotlin.math.log(n, x)
     if (y % 1 == 0.0)
